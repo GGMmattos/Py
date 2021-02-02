@@ -6,9 +6,10 @@ palavra = frase.split()
 junto = ''.join(palavra)
 
 inverso = ''
+inverso = junto[::-1] # simplificado
 
-for i in range(len(junto)-1,-1,-1):
-    inverso+= junto[i]
+'''for i in range(len(junto)-1,-1,-1): #com laço FOR
+    inverso+= junto[i]'''
 
 print('Inverso de {} é {}'.format(junto,inverso))
 
