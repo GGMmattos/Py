@@ -7,4 +7,4 @@ for i in range(1,7):
     if num % 2 == 0:
         soma = soma + num
         cont+=1
-print('Voce informpu {} numeros pares a soma dos mesmo é {}'.format(cont,soma))
+print('Voce informou {} numero(s) pares a soma dos mesmo é {}'.format(cont,soma))
