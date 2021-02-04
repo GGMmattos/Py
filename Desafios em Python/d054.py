@@ -6,7 +6,7 @@ atual=date.today().year
 
 choice=(int(input("Informe o numero de pessoas deseja analizar > ")))
 for i in range(0, choice):
-    ano= (int(input("Em que ano a {}º pessoa nasceu: ".format(i+1))))
+    ano= (int(input("Digite o ano que a {}º pessoa nasceu >".format(i+1))))
     idade = atual - ano
     if(idade >= 21):
         maior+=1
