@@ -23,7 +23,6 @@ for i in range(1, 5):
 
     if sexo == 'F' and idade < 20:
         z = z + 1
-print(z)
 
 print("Media das idades > {} anos".format(soma_idade / 4))
 
