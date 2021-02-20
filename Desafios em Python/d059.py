@@ -1,6 +1,6 @@
 from time import sleep
 n1 = int(input("Informe um valor: "))
-n2 = int(input("Informe o segundo valor"))
+n2 = int(input("Informe o segundo valor: "))
 escolha=0
 
 while escolha != 5:
