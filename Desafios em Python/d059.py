@@ -1,3 +1,5 @@
+#Crie um programa que leia dois valores e mostre um menu na tela:
+
 from time import sleep
 n1 = int(input("Informe um valor: "))
 n2 = int(input("Informe o segundo valor: "))
