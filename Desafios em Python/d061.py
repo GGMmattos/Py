@@ -1,6 +1,6 @@
 #Lendo o primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos da progressão usando a estrutura while.
 
-print("Gerador de P.A em while")
+print("Gerador de P.A com while")
 
 F=int(input("\ninforme o primeiro termo >"))
 cont = 1
