@@ -4,7 +4,9 @@ Aqui contem alguns desafios  que foram passados ao decorrer do curso de Python d
 
 Mundo 1 (concluido)<br>
 
-Mundo 2 (loading..)
+Mundo 2 (concluido)<br>
+
+Mundo 3 (Loading...)
 
 
 
