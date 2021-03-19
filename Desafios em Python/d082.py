@@ -2,7 +2,7 @@
 #crie duas listas extras que vão conter apenas os valores pares e os valores ímpares digitados,
 #respectivamente. Ao final, mostre o conteúdo das três listas geradas.
 
-lista =list()
+lista = list()
 listaP = list()
 listaI = list()
 
@@ -16,7 +16,7 @@ for i in lista:
         listaP.append(i)
     else:
         listaI.append(i)
-
+print(20*'=-')
 print(f"A lista completa é {lista}")
 print(f"lista com pares é {listaP}")
 print(f"lista com impares é {listaI}")
