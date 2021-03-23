@@ -4,6 +4,8 @@
 
 lista = [[],[]]
 
+
+
 for i in range(1,8):
     n1 =(int(input(f"Informe o {i}º valor: ")))
     print()
