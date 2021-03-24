@@ -25,10 +25,12 @@ while True:
 print(45*"-")
 
 print('cod ', end='')
+
 for i in jogador.keys():
     print(f'{i:<15} ', end='')
 print()
 print(45*"-")
+
 for k,v in enumerate(time):
     print(f'{k:>3}', end='')
     for d in v.values():
@@ -47,6 +49,7 @@ while True:
         for i,g in enumerate(time[busca]["gols"]):
             print(f" No jogo {i+1} fez {g} gols")
     print(40*"-")
+    
 print("programa finalizado")
 
 
