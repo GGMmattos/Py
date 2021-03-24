@@ -35,14 +35,18 @@ print(f"A) Ao todo temos {len(pessoas)} pessoas cadastradas ")
 aux = len(pessoas)
 media = soma / aux
 print(f"B) Média das idades: {media:5.2f} anos")
+
 print(20 *"=-")
 
 print("C) As mulheres cadastradas foram: ", end=' ')
 for p in pessoas:
     if p['sexo'] == 'F':
         print(f"{p['nome']}; ", end=' ')
+
 print(20 *"=-")
+
 print()
+
 print("D) Lista das pessoas que estão com a idade acima da média: ", end="")
 
 for p in pessoas:
@@ -52,6 +56,3 @@ for p in pessoas:
             print(f'{k} = {v}; ', end= "")
         print()
         
-
-#print(individuo)
-#print(pessoas)
