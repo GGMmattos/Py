@@ -14,3 +14,4 @@ n = leiaInt("Digite um número: ")
 print(f"Você acabou de digitar o números: {n}")
 
 
+    
