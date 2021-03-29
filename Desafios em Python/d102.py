@@ -2,7 +2,12 @@
 # que será um valor lógico (opcional) indicando se será mostrado ou não na tela o processo de cálculo do fatorial.
 
 def fatorial(num, show=False):
+    """
 
+    :param num: Recebe o numero que será calculado o fatorial
+    :param show: Parametro opcional, mostra a conta na tela
+    :return: Retorna o valor do fatorial de num
+    """
     fat = 1
     for i in range (num, 0, -1):
 
@@ -14,7 +19,7 @@ def fatorial(num, show=False):
                 print(" = ", end=" ")
         fat *= i
     print(fat)
-
+help(fatorial)
 n = int(input("Informe um números: "))
 
 fatorial(n, show=True)
