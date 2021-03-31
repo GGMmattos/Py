@@ -1,32 +1,26 @@
-def notas(*n,sit=0):
-    j=0
-    maior = 0
-    menor =0
-    soma = 0
-    for i in n:
-        print(f"\n{i}")
-        if j==0:
-            maior=i
-            menor=i
-        elif  i > maior:
-            maior =i
-        elif i < menor:
-            menor = i
-        j+=1
-        soma +=i
-    media = soma/j
-    print(f"Maior nota: {maior}")
-    print(f"Menor nota: {menor}")
-    print(f"medias das notas: {media}")
+# Faça um programa que tenha uma função notas() que pode receber várias notas de alunos e vai retornar um dicionário com as 
+# seguintes informações:
+#– Quantidade de notas      – A maior nota   – A menor nota     - A média da turma      - A situação (opcional)
 
 
-
-
-
+def notas(*n,sit=False):
     dici = dict()
-    sit =False
+
+    dici['Total'] = len(n)
+    dici['Maior nota'] = max(n)    
+    dici['Menor nota'] = min(n)
+    dici['Média'] = sum(n)/len(n)
+    
+
+    if sit:
+        if 6 <= dici['Média'] < 7:
+            dici['Situaçao'] = "razoável"
+        elif dici['Média'] < 6:
+             dici['Situaçao'] = "Ruim"
+        else:
+            dici['Situaçao'] = "Boa"
+    return dici
 
 
-
-
-notas(65,2,10,3,100)
+resp = notas(5.5,2.5,10,6.5,sit=True)
+print(resp)
