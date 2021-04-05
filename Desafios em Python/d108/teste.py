@@ -2,10 +2,10 @@
 # Faça também um programa que importe esse módulo e use algumas dessas funções.
 import moeda
 
-n= int(input("Informe um números: "))
+n= int(input("Informe um número: "))
 print(f"A metade de {moeda.moeda(n)} é {moeda.moeda(moeda.metade(n))} ")
 print(f"O dobro de {moeda.moeda(n)} é {moeda.moeda(moeda.dobro(n))} ")
-print(f"aumentos 10% temos {moeda.moeda(moeda.aumentar(n,10))}")
-print(f"Diminuindo 10% temos{moeda.moeda(moeda.diminuir(n,10))}")
+print(f"aumentando 10% temos: {moeda.moeda(moeda.aumentar(n,10))}")
+print(f"Diminuindo 10% temos:{moeda.moeda(moeda.diminuir(n,10))}")
 
 
