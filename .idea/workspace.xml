@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a807bd6a-ae07-4994-9c7d-4864b3701870" name="Default Changelist" comment="Exercício em py">
-      <change afterPath="$PROJECT_DIR$/Desafios em Python/d115/lib/arquivo/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafios em Python/d115/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafios em Python/d115/lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafios em Python/d115/lib/arquivo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Desafios em Python/d115/lib/arquivo/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desafios em Python/d115/lib/interface/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Desafios em Python/d115/lib/interface/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desafios em Python/d115/sistema.py" beforeDir="false" afterPath="$PROJECT_DIR$/Desafios em Python/d115/sistema.py" afterDir="false" />
     </list>

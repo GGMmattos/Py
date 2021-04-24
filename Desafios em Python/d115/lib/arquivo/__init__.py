@@ -1,5 +1,4 @@
-from lib.interface import *
-
+from lib.interface import  cabecalho
 
 def arquivoExiste(nome):
     try:
@@ -12,7 +11,7 @@ def arquivoExiste(nome):
 
 def criarArquivo(nome):
     try:
-        a =  open(nome, 'wt+') #Escreve um arquivo de texto, caso o mesmo n exita cria(oq simboliza o +)
+        a = open(nome, 'wt+') #Escreve um arquivo de texto, caso o mesmo n exita cria(oq simboliza o +)
         a.close()
     except:
         print("Houve um erro na crianção doa arquivo")
@@ -25,6 +24,6 @@ def lerArquivo(nome):
     except:
         print("Erro ao ler o arquivo!")
     else:
-        cabeçalho("PESSOAS CADASTRADAS")
-        print(a.readLines())
+        cabecalho("PESSOAS CADASTRADAS")
+        print(a.read())
 

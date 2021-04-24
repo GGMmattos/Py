@@ -4,20 +4,17 @@ from time import  sleep
 
 arq = 'cursoemvideos.txt'
 
-if arquivoExiste(arq):
-    print("arquivo encontrado com sucesso")
-else:
-    print("arquivo não encontrado")
+if not arquivoExiste(arq):
     criarArquivo(arq)
 while True:
-    resposta  = menu(['Ver pessoas cadastradas', 'Cadastrar nova Pessoa' , 'Sair do Sistema'])
+    resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova Pessoa' , 'Sair do Sistema'])
     if  resposta == 1:
         #opção de listar o conteudo de um arquivo!
         lerArquivo(arq)
     elif resposta == 2:
-        cabeçalho("Opção 2")
+        cabecalho("Opção 2")
     elif resposta == 3:
-        cabeçalho("Saindo do sistema, até logo!")
+        cabecalho("Saindo do sistema, até logo!")
         break
     else:
         print("\033[31mERRO!, digite uma opção valida! \033[m")
