@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a807bd6a-ae07-4994-9c7d-4864b3701870" name="Default Changelist" comment="Exercício em py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/d115/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/d115/lib/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Desafios em Python/d115/lib/arquivo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Desafios em Python/d115/lib/arquivo/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/d115/lib/interface/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Desafios em Python/d115/lib/interface/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desafios em Python/d115/sistema.py" beforeDir="false" afterPath="$PROJECT_DIR$/Desafios em Python/d115/sistema.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -334,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619035049600</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Exercício em py">
+      <created>1619226886610</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1619226886610</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
