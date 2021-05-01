@@ -3,127 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a807bd6a-ae07-4994-9c7d-4864b3701870" name="Default Changelist" comment="ATT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d006.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d007.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d008.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d009.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d010.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d011.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d012.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d013.PY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d014.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d015.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d016.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d017.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d018.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d019.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d020.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d022.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d023.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d024.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d025.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d026.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d027.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d028.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d029.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d030.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d031.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d032.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d033.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d034.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 1/d035.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d036.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d037.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d038.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d039.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d040.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d041.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d042.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d043.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d044.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d045.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d046.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d047.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d048.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d049.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d050.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d051.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d052.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d053.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d054.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d055.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d056.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d057.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d058.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d059.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d060.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d061.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d062.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d063.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d064.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d066.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d067.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d068.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d069.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d070.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 2/d071.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d072.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d073.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d074.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d075.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d076.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d077.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d078.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d079.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d080.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d081.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d082.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d083.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d084.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d085.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d086.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d087.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d088.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d089.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d090.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d091.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d092.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d093.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d094.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d095.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d096.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d097.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d098.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d099.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d100cemzou.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d101.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d102.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d103.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d104.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d105.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d106.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d107/moeda.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d107/teste.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d108/moeda.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d108/teste.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d109/moeda.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d109/teste.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d110/moeda.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d110/teste.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d111/teste.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d111/utilidadescev/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d111/utilidadescev/dado/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d111/utilidadescev/moeda/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d112/teste.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d112/utilidadescev/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d112/utilidadescev/dado/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d112/utilidadescev/moeda/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d113.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d114.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d115/lib/arquivo/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d115/lib/interface/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/Mundo 3/d115/sistema.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios em Python/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +47,7 @@
       <recent name="C:\Users\glmat\Documents\WWW\Linguagem Python\Desafios em Python" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\glmat\Documents\WWW\Linguagem Python\POO\2" />
       <recent name="C:\Users\glmat\Documents\WWW\Linguagem Python\Desafios em Python\d115\lib\Arquivo" />
     </key>
   </component>
@@ -464,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619402271905</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ATT">
+      <created>1619882582563</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1619882582563</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
