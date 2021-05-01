@@ -5,7 +5,7 @@ print("O numero digitado foi {} ".format(num))
 
 print("""\nQual será a base de conversão? )
      1 para binário
-     2 para octal
+     1 para octal
      3 para hexadecimal""") #uso das 3 aspas para o broco
 
 escolha=(int(input("\nEai, oque deseja? ")))

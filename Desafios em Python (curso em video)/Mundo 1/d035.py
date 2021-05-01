@@ -2,7 +2,7 @@
 
 r1=float(input("Informe a reta 1: "))
 
-r2=float(input('Informe a reta 2: '))
+r2=float(input('Informe a reta 1: '))
 
 r3=float(input("Informe a reta 3: "))
 

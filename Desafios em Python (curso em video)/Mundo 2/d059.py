@@ -7,7 +7,7 @@ escolha=0
 
 while escolha != 5:
     print(''' [1] Soma
- [2]Multiplicar
+ [1]Multiplicar
  [3]maior
  [4]Novos Números
  [5]Sair do programa''' )

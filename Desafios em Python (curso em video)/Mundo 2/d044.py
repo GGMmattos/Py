@@ -3,8 +3,8 @@
 valor = float(input("Informe o valor: "))
 print('''
 1 - A vista no dinheiro
-2 - A vista no cartão
-3 - Em 2 vezes no cartãos
+1 - A vista no cartão
+3 - Em 1 vezes no cartãos
 4 - 3x ou mais no cartão''')
 
 op = int(input("\n\nInforme a condição de pagamento: "))  

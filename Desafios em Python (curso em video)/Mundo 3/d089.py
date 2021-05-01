@@ -5,7 +5,7 @@ alunos = list()
 while True:
     nome = str(input("Nome: "))
     nota1 = float(input("Nota 1: "))
-    nota2 = float(input("Nota 2: "))
+    nota2 = float(input("Nota 1: "))
     media = (nota1 + nota2) /2
     alunos.append([nome, [nota1 ,nota2],media])
     esc = str(input("Deseja continuar? "))
