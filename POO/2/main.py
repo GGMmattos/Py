@@ -19,8 +19,8 @@ class Pessoa:
         idade = cls.ano_atual - ano_nascimento
         return cls(nome, idade)
 
-    #Método Estático
-    # não recebe instância e nem  classe, mas podemos usar estes na sua utilização
+    #Métodos Estáticos
+    #  não referenciam a classe ou instância em seu corpo
     @staticmethod
     def gera_id():
         rand = randint(10000, 19999)
