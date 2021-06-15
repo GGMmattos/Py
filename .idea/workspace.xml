@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a807bd6a-ae07-4994-9c7d-4864b3701870" name="Default Changelist" comment="Adicionei outros métodos">
-      <change afterPath="$PROJECT_DIR$/POO/3/main.py" afterDir="false" />
+    <list default="true" id="a807bd6a-ae07-4994-9c7d-4864b3701870" name="Default Changelist" comment="getter e setter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Desafios em Python" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -142,6 +141,9 @@
       <module name="Linguagem Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POO/2" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -200,10 +202,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.teste (1)" />
         <item itemvalue="Python.teste" />
+        <item itemvalue="Python.teste (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
@@ -378,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622677005426</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="getter e setter">
+      <created>1622679251337</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1622679251337</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,6 +409,7 @@
     <MESSAGE value="ATT" />
     <MESSAGE value="Métodos de Classes" />
     <MESSAGE value="Adicionei outros métodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionei outros métodos" />
+    <MESSAGE value="getter e setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="getter e setter" />
   </component>
 </project>
