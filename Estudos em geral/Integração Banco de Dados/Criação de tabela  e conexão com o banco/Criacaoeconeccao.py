@@ -20,7 +20,6 @@ try:
     #Cria cursos e executa SQL no banco de dados
     cursor = con.cursor()     #cursos permite fazer alteração por elementos de uma tabela retornados
     cursor.execute(criar_tabela_SQL)
-    linha = cursor.fetchone()
     print("Tabela de familiares criada com sucesso!!!")
 
 except mysql.connector.Error  as error:
