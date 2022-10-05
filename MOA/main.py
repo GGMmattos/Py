@@ -24,7 +24,6 @@ def closer(lista):
         for j in lista:
             ver1 = np.array(i)
             if j not in C:
-                print(j)
                 ver2 = np.array(j)  # passa por todos os k vertices
                 calc = np.linalg.norm(ver1 - ver2)  # realiza o calcula da distancia de atual  e K
                 if calc < shorter_dist:
@@ -37,14 +36,7 @@ def closer(lista):
     ver3 = np.array((C[-1]))
     ver4 = np.array(lista[0])
     last_one = np.linalg.norm(ver3 - ver4)
-
-    #A = C
-    #k =0
-
-    #for i in dimension
-
-    #print(C)
-    #print(A)
+    A = C.copy()
 
     return total_dist + last_one
 
@@ -69,4 +61,9 @@ print(f'Solução Trivial: {trivial}')
 melhorada = empro = improvement(C)
 print(f'Solução melhorada: {melhorada}')
 
+print(C)
 
+for i in C:
+    C.remove(i)
+
+print(C)  #vai dar bom
