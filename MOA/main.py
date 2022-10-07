@@ -4,6 +4,7 @@ dados = []
 vertice = list()
 C = []
 A = []
+flag = False
 
 def vertex(dimensao):
     for i in (range(dimensao)):
@@ -15,11 +16,16 @@ def vertex(dimensao):
         else:
             vertice.append(grafo)
 
-def closer(lista):
+def closer(lista, flag):
+
+    if flag:
+        C.clear()
+        print(C)
     i = lista[0]
     aux = 0
     shorter_dist = float('Inf')
     total_dist = 0
+
     while len(C) != dimension:
         for j in lista:
             ver1 = np.array(i)
@@ -37,12 +43,12 @@ def closer(lista):
     ver4 = np.array(lista[0])
     last_one = np.linalg.norm(ver3 - ver4)
     A = C.copy()
-
+    flag = True
     return total_dist + last_one
 
 def improvement(lista):
     lista[0], lista[1] = lista[1], lista[0]
-    sla = closer(lista)
+    sla = closer(lista, flag)
     return sla
 
 name = input()
@@ -56,14 +62,7 @@ vertex(dimension)
 
 print()
 print()
-trivial = closer(vertice)
+trivial = closer(vertice, flag)
 print(f'Solução Trivial: {trivial}')
 melhorada = empro = improvement(C)
 print(f'Solução melhorada: {melhorada}')
-
-print(C)
-
-for i in C:
-    C.remove(i)
-
-print(C)  #vai dar bom
