@@ -4,7 +4,7 @@ dados = []
 vertice = list()
 C = []
 A = []
-flag = False
+
 
 def vertex(dimensao):
     for i in (range(dimensao)):
@@ -16,40 +16,49 @@ def vertex(dimensao):
         else:
             vertice.append(grafo)
 
-def closer(lista, flag):
 
-    if flag:
-        C.clear()
-        print(C)
+def closer(lista):
+    print(lista)
     i = lista[0]
-    aux = 0
+    nn = 0
     shorter_dist = float('Inf')
     total_dist = 0
-
     while len(C) != dimension:
         for j in lista:
             ver1 = np.array(i)
             if j not in C:
                 ver2 = np.array(j)  # passa por todos os k vertices
                 calc = np.linalg.norm(ver1 - ver2)  # realiza o calcula da distancia de atual  e K
-                if calc < shorter_dist:
+                if calc <= shorter_dist:
                     shorter_dist = calc
-                    aux = j
-        i = aux
+                    nn = j
+
+        C.append(nn)
+        print(C)
+        i = nn
         total_dist += shorter_dist
         shorter_dist = float('Inf')
-        C.append(i)
+
     ver3 = np.array((C[-1]))
     ver4 = np.array(lista[0])
     last_one = np.linalg.norm(ver3 - ver4)
-    A = C.copy()
-    flag = True
-    return total_dist + last_one
+    Solucao = total_dist + last_one
 
-def improvement(lista):
-    lista[0], lista[1] = lista[1], lista[0]
-    sla = closer(lista, flag)
-    return sla
+    return Solucao
+
+def improvement(C):
+    best = 0
+    i = 0
+    while i < dimension -2:
+        C[i], C[i + 1] = C[i], C[i + 1]
+        melhorada = closer(C)
+        print(melhorada)
+        i += 1
+        if melhorada <= trivial:
+            best = melhorada
+    return best
+
+
 
 name = input()
 comment = input()
@@ -60,9 +69,11 @@ test2 = input()
 dimension = int(float((dimension[dimension.find(':') + 2:])))
 vertex(dimension)
 
-print()
-print()
-trivial = closer(vertice, flag)
+
+trivial = closer(vertice)
 print(f'Solução Trivial: {trivial}')
-melhorada = empro = improvement(C)
+
+melhorada = improvement(C)
 print(f'Solução melhorada: {melhorada}')
+
+
