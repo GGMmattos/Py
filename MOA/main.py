@@ -1,9 +1,11 @@
 import numpy as np
+from itertools import permutations
+
 grafo = []
 dados = []
 vertice = list()
-C = []
-A = []
+list_aux = []
+list_aux1 = []
 
 
 def vertex(dimensao):
@@ -16,49 +18,58 @@ def vertex(dimensao):
         else:
             vertice.append(grafo)
 
-
 def closer(lista):
-    print(lista)
+    global a
     i = lista[0]
     nn = 0
     shorter_dist = float('Inf')
     total_dist = 0
-    while len(C) != dimension:
+    while len(list_aux) != dimension:
         for j in lista:
             ver1 = np.array(i)
-            if j not in C:
+            if j not in list_aux:
                 ver2 = np.array(j)  # passa por todos os k vertices
                 calc = np.linalg.norm(ver1 - ver2)  # realiza o calcula da distancia de atual  e K
                 if calc <= shorter_dist:
                     shorter_dist = calc
                     nn = j
-
-        C.append(nn)
-        print(C)
+        list_aux.append(nn)
         i = nn
         total_dist += shorter_dist
         shorter_dist = float('Inf')
 
-    ver3 = np.array((C[-1]))
+    a = list_aux.copy()
+    ver3 = np.array((list_aux[-1]))
     ver4 = np.array(lista[0])
+    list_aux.clear()
     last_one = np.linalg.norm(ver3 - ver4)
     Solucao = total_dist + last_one
-
     return Solucao
 
-def improvement(C):
-    best = 0
-    i = 0
-    while i < dimension -2:
-        C[i], C[i + 1] = C[i], C[i + 1]
-        melhorada = closer(C)
-        print(melhorada)
-        i += 1
-        if melhorada <= trivial:
-            best = melhorada
-    return best
+def calc(sol):
+    calc = 0
+    j = 0
+    while j < dimension - 1:
+            ver1 = np.array(sol[j])
+            ver2 = np.array(sol[j + 1])  # passa por todos os k vertices
+            calc += np.linalg.norm(ver1 - ver2)  # realiza o calcula da distancia de atual  e K
+            j += 1
+    ver3 = np.array((sol[-1]))
+    ver4 = np.array(sol[0])
+    last_one1 = np.linalg.norm(ver3 - ver4)
+    resp = calc +last_one1
+    print(resp)
+    return resp
 
-
+def opt(lista):
+    melhor = 0
+    for i in range(0, dimension - 1, 1):
+        for j in range(0, dimension, 1):
+            lista[i], lista[j] = lista[j], lista[i]
+            aux = calc(lista)
+            if aux < trivial:
+                melhor = aux
+    return melhor
 
 name = input()
 comment = input()
@@ -67,13 +78,14 @@ dimension = input()
 test1 = input()
 test2 = input()
 dimension = int(float((dimension[dimension.find(':') + 2:])))
+
 vertex(dimension)
-
-
 trivial = closer(vertice)
-print(f'Solução Trivial: {trivial}')
+print(a)
+print("----------------------------")
+melhora = opt(a)
+print(melhora)
 
-melhorada = improvement(C)
-print(f'Solução melhorada: {melhorada}')
-
-
+perm = permutations(a)
+for i in list(perm):
+    print(i)
