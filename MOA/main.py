@@ -60,9 +60,6 @@ def calc(sol):
     resp = calc + last_one1
     return resp
 
-
-#lista[i], lista[j] = lista[j], lista[i]
-
 def distancia(ver1, ver2):
     a = np.array((ver1))
     b = np.array((ver2))
@@ -89,6 +86,21 @@ def opt(lista):
         k_lista = k_lista.copy()
     return k_lista
 
+
+def blabla(a):
+    arg = a
+    bestbest = trivial
+    while True:
+        melhor  = opt(arg)
+        arg = melhor
+        melhoropt = calc(melhor)
+
+        if melhoropt < bestbest:
+            bestbest = melhoropt
+        else:
+            return bestbest
+
+
 name = input()
 comment = input()
 tipo = input()
@@ -100,16 +112,6 @@ dimension = int(float((dimension[dimension.find(':') + 2:])))
 vertex(dimension)
 trivial = closer(vertice)
 
-print(trivial)
-
-
-melhor = opt(a)
-print(calc(melhor))
-
-melhor1 = opt(melhor)
-print(calc(melhor1))
-
-
-
+print(blabla(a))
 
 
