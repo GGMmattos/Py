@@ -7,8 +7,7 @@ list_aux = []
 list_aux1 = []
 k_lista = []
 
-
-def vertex(dimensao):
+def init(dimensao):
     for i in (range(dimensao)):
         vector = input()
         dados = vector.split()
@@ -18,7 +17,7 @@ def vertex(dimensao):
         else:
             vertice.append(grafo)
 
-def closer(lista):
+def mais_prox(lista):
     global a
     i = lista[0]
     nn = 0
@@ -60,7 +59,7 @@ def calc(sol):
     resp = calc + last_one1
     return resp
 
-def distancia(ver1, ver2):
+def calc_eucli(ver1, ver2):
     a = np.array((ver1))
     b = np.array((ver2))
     dist = np.sqrt(np.sum(np.square(a - b)))
@@ -72,8 +71,8 @@ def opt(lista):
     k_lista = lista.copy()
     for i in range(len(k_lista) - 2):
         for j in range(i+2, len(k_lista) - 1):
-            custo_atual = distancia(k_lista[i], k_lista[i + 1]) + distancia(k_lista[j], k_lista[j + 1])
-            custo_novo = distancia(k_lista[i], k_lista[j]) + distancia(k_lista[i + 1], k_lista[j + 1])
+            custo_atual = calc_eucli(k_lista[i], k_lista[i + 1]) + calc_eucli(k_lista[j], k_lista[j + 1])
+            custo_novo = calc_eucli(k_lista[i], k_lista[j]) + calc_eucli(k_lista[i + 1], k_lista[j + 1])
             change = custo_novo - custo_atual
             if change < min_change:
                 min_change = change
@@ -86,19 +85,18 @@ def opt(lista):
         k_lista = k_lista.copy()
     return k_lista
 
-
-def blabla(a):
-    arg = a
-    bestbest = trivial
+def bestWay(a):
+    aux = a
+    melhor_caminho = factivel
     while True:
-        melhor  = opt(arg)
-        arg = melhor
-        melhoropt = calc(melhor)
+        melhor_list  = opt(aux)
+        aux = melhor_list
+        melhor_temporario = calc(melhor_list)
 
-        if melhoropt < bestbest:
-            bestbest = melhoropt
+        if melhor_temporario < melhor_caminho:
+            melhor_caminho = melhor_temporario
         else:
-            return bestbest
+            return melhor_caminho
 
 
 name = input()
@@ -108,10 +106,8 @@ dimension = input()
 test1 = input()
 test2 = input()
 dimension = int(float((dimension[dimension.find(':') + 2:])))
-
-vertex(dimension)
-trivial = closer(vertice)
-
-print(blabla(a))
+init(dimension)
+factivel = mais_prox(vertice)
+print(bestWay(a))
 
 
