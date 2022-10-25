@@ -5,7 +5,6 @@ grafo = []
 vertices = list()
 list_aux = []
 
-
 #CALC - Dada uma solução com a lista de cidades, realiza o calculo
 def calc(sol):
     calc = 0
@@ -20,7 +19,6 @@ def calc(sol):
     last_one1 = np.linalg.norm(ver3 - ver4)
     resp = calc + last_one1
     return resp
-
 
 #INICIALIZAÇÃO - Faz o armazenamento dos dados contigo no arquivo por fim, cria a lista de vertices
 def start(dimensao):
@@ -38,6 +36,10 @@ def criarRota(listCity):
     rota = random.sample(listCity, len(listCity))
     return rota
 
+def fitness(lista):
+    print(lista)
+    return 1 / float(calc(lista[3]))
+
 #CRIAÇÃO DA POPULAÇÃO INICIAL
 def iniciaPopulacao(sizePop, listCity):
     populacao = []
@@ -54,8 +56,15 @@ dimension = input()
 test1 = input()
 test2 = input()
 dimension = int(float((dimension[dimension.find(':') + 2:])))
+
+
+
 start(dimension)
-teste = iniciaPopulacao(4, vertices)
-print(teste)
+populacao = iniciaPopulacao(5, vertices)
+
+sla = fitness(populacao)
+print(sla)
+
+
 
 
