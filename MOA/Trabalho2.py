@@ -157,8 +157,3 @@ print(teste)
 
 print(sla)
 
-
-
-
-
-
